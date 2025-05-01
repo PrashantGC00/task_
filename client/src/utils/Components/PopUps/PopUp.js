@@ -23,7 +23,7 @@ export const Popup = ({ open, handleClose, employee }) => {
     try {
       toggleLoading();
       const response = await fetch(
-        `/api/employees/${employee._id}`,
+        `${process.env.REACT_APP_BACKEND_URI}/api/employees/${employee._id}`,
         {
           method: "PUT",
           headers: {

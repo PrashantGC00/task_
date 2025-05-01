@@ -29,7 +29,7 @@ const EmployeeRegister = () => {
     onSubmit: async (values, { resetForm }) => {
       try {
         toggleLoading();
-        const response = await fetch("/api/employees", {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URI}/api/employees`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

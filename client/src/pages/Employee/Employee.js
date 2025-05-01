@@ -11,7 +11,7 @@ const Employee = () => {
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const response = await fetch("/api/employees", {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URI}/api/employees`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

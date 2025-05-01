@@ -42,7 +42,7 @@ const Table = ({ employees: initialEmployees }) => {
   const handleDelete = async (_id) => {
     try {
       toggleLoading();
-      const response = await fetch(`/api/employees/${_id}`, {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URI}/api/employees/${_id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
