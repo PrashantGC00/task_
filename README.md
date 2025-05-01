@@ -21,7 +21,10 @@ cd server
 npm build
 npm start
 
-livalinks: https://employee-management-cjoi.onrender.com/
+## livalinks
+
+- frontend: https://task-1-4bjk.onrender.com/
+- backend: https://task-6hp1.onrender.com/
 
 ## Extra notes
  - Application has filter system by departments
@@ -32,4 +35,5 @@ livalinks: https://employee-management-cjoi.onrender.com/
  - Toast Notification
   -Form Validation using formik and yup
  - Toast Notificaiton using react-hot-toast
+ - joi validation for backend
 
