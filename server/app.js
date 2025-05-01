@@ -12,7 +12,7 @@ const EmployeeRouter = require('./Routes/EmployeeRouter');
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: process.env.FRONTEND_URI,
+  // origin: process.env.FRONTEND_URI,
   credentials: true,
 }));
 
