@@ -17,9 +17,11 @@ This is a simple web application for managing employees. Users can add, view, ed
 - **Hover Effects & UI Polish**: Basic hover effects and UI improvements for a better user experience.
 
 ## How to Run Locally
-cd server
-npm build
-npm start
+- unzip folder
+- server/ npm install
+- server/ npm start
+- client/npm install
+- client/ npmstart
 
 ## livalinks
 
